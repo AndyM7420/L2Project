@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(49, 9, 82);
+    color: ghostwhite;
+    text-align: center;
+    font-size: larger;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+header{
+    color: rgb(244, 119, 11);
+    font-size: 50px;
+}
+h1{
+    color: rgb(244, 119, 11);
+    font-size: 75px;
+    font-family: 'Creepster', sans-serif;
+}
+button{
+    background-color: rgb(225, 160, 8);
+    padding: 25px;
+    text-decoration: wavy;
+    font-size: larger;
+    font-family: sans-serif;
+    border-radius: 60%;
+}
+span{
+    background-color: rgb(41, 163, 102);
+    padding: 25px;
+    text-decoration: wavy;
+    font-size: larger;
+    font-family: sans-serif;
+}
+div{
+    background-color: rgb(39, 108, 107);
+    color: ghostwhite;
+    text-align: center;
+    font-size: larger;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#skeleton
+{
+    background-image: url("https://img.freepik.com/premium-photo/halloween-horror-scary-background-with-zombie-skeleton-ghost-generative-ai_124507-63949.jpg");
+    background-size: 1480px;
+}
+#gate
+{
+    background-image: url("https://img.freepik.com/premium-photo/creepy-looking-gate-is-surrounded-by-pillars-yellow-glow_250469-22258.jpg");
+    background-size: 1750px;
+    color: rgb(255, 255, 255);
+    top: 80%;
+    bottom: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+#trav{
+position: unset;
+top: 80%;
+bottom: 50%;
+margin-right: 0%;
+margin-left: 0%;
+}
+@-webkit-keyframes blackGrey{
+    0%{background-color: black;}
+    50%{background-color: black;}
+    51%{background-color: grey;}
+    100%{background-color: grey;}
+}
+.blinkdiv{
+    height: 80px;
+    background-color: black;
+    -webkit-animation-name: blackGrey;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+}
+img:hover{
+    transform: scale(1.5);
+}
+h2:hover{
+   background-image: ; 
+}
